@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navigation Bar */
+
+.navtop {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.navbar-ul {
+    list-style-type: none;
+}
+
+.navbar-a,
+.search {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    height: 100%;
+}
+
+.navbar-a {
+    text-decoration: none;
+}
+
+.navbar-a:hover, .search:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar-a:hover > i, .search:hover > i {
+    animation-name: scalerotanim;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.navbar-a i {
+    font-size: 20px;
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+}
+
+
+/* Main */
+
+main {
+    background-color: rgb(240, 240, 240);
+}
+
+header {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h2, h3 {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.h3-span {
+    color: gray;
+}
+
+h1, .header-p {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-p > span {
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.container {
+    /* max-width: 100%; */
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* max-width: 100%; */
+    height: calc(100vw / 1.509);
+    /* aspect-ratio: 16/10; */
+    margin: 0 auto;
+    background-image: url(../images/jane.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.st-div-p, .st-div-h {
+    color: white;
+}
+
+.st-div-p {
+    max-width: 100%;
+    font-size: 32px;
+}
+
+.st-div-h {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.st-subscribe {
+    display: inline-block;
+    background-color: rgba(194, 194, 194, 0.8);
+    border: none;
+    padding: 15px 25px;
+}
+
+.st-subscribe:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.img-container {
+    /* width: 100%; */
+    margin: 10px 0;
+}
+
+
+.img {
+    display: block;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.like-button {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.like-button {
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: black;
+}
+
+.like-button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.replies-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.replies-bttn-count {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+}
+
+.replies-button-text {
+    padding: 5px 10px;
+}
+
+
+
+.user-info {
+    background-color: black;
+}
+
+
+.user-name, .user-desc {
+    color: white;
+    padding: 10px;
+}
+
+.m-tb-10 {
+        margin: 10px 0;
+}
+
+.replies {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    padding: 20px 0;
+    margin: 15px 0;
+}
+
+.replies-desc {
+    margin-left: 30px;
+}
+
+.replies-desc > div, .replies-desc > h3 {
+    padding: 5px 0;
+} 
+
+.replies-avatar {
+    width: 100px;
+}
+
+/* ---------------------------------------- */
+
+.user-post {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+}
+
+.user-post:hover {
+    background-color: rgba(211, 211, 211, 0.7);
+    cursor: pointer;
+}
+
+.user-post .post-img-container {
+    width: 50px;
+    margin: 10px;
+}
+
+.header-info {
+    padding: 15px 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.filter-sepia {
+    filter: sepia(200%);
+}
+
+.user-name {
+    font-size: 18px;
+}
+
+.user-add-container {
+    padding: 10px;
+}
+
+.add-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    min-height: 256px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.tag-link {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-link a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(240, 240, 240);
+    padding: 5px;
+    margin: 5px;
+    display: block;
+}
+
+.tag-link a:hover {
+    color: white;
+    background-color: black;
+}
+
+.font-size-0 {
+    font-size: 0;
+}
+
+.font-size-25 {
+    font-size: 25px;
+}
+
+.contact-link {
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    color: gray;
+    animation-name: scalerotanim;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.contact-link i {
+    font-size: 30px;
+}
+
+form {
+    padding: 10px;
+}
+
+form label {
+    margin: 10px 0;
+}
+
+#email {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#subscribe {
+    display: block;
+    color: white;
+    background-color: tomato;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+}
+
+#subscribe:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+footer {
+    background-color: gray;
+}
+
+.footer-container {
+    padding: 20px;
+}
+
+.footer-top-container > a {
+    display: block;
+    width: max-content;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.footer-top-container > a::before {
+    content: "\1f879";
+}
+
+.footer-bottom-container, .footer-bottom-container a {
+    color: white;
+}
+
+.footer-top-container a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+
+/* float */
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* --------------------------- */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Animations */
+
+.fade-loop {
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.fade-show-1 {
+    animation-name: fadeshow;
+    animation-duration: 1.2s;
+    /* animation-delay: .1s; */
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.fade-show-2 {
+    animation-name: fadeshow;
+    animation-duration: 1.2s;
+    animation-delay: .2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.fade-show-3 {
+    animation-name: fadeshow;
+    animation-duration: 1.2s;
+    animation-delay: .4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.fade-show-4 {
+    animation-name: fadeshow;
+    animation-duration: 1.2s;
+    animation-delay: .6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.fade-show-5 {
+    animation-name: fadeshow;
+    animation-duration: 1.2s;
+    animation-delay: .8s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.fade-show-6 {
+    animation-name: fadeshow;
+    animation-duration: 1.2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.fade-show-7 {
+    animation-name: fadeshow;
+    animation-duration: 1.2s;
+    animation-delay: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+
+
+
+/* KeyFrames */
+
+@keyframes fade {
+    0%{opacity: .3;}
+    50%{opacity: 1;}
+    100%{opacity: .3;}
+}
+
+@keyframes fadeshow {
+    0%{transform: translate(0 , -100px);}
+    25%{opacity: 0.2;}
+    50%{transform: translate(0 , 0);}
+    100%{opacity: 1;}
+}
+
+@keyframes scalerotanim {
+    0%{transform: rotateZ(-5deg);}
+    25%{transform: rotateZ(5deg);}
+    50%{transform: rotateZ(-5deg);}
+    75%{transform: rotateZ(5deg);}
+    100%{transform: scale(125%);}
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+/* Rows */
+.row {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.row-1 {
+    max-width: 100%;
+}
+
+.row-padding {
+    padding: 15px;
+}
+
+/* Columns */
+
+.col {
+    margin: 30px;
+}
+
+.sm-col {
+    margin: 15px;
+}
+
+.sm-col-6 {
+    width: calc(100% / 2 - 30px);
+}
+
+.col-1 {
+    width: calc(100% / 12 - 60px);
+}
+
+.col-2 {
+    width: calc(100% / 6 - 60px);
+}
+
+.col-3 {
+    width: calc(100% / 4 - 60px);
+}
+
+.col-4 {
+    width: calc(100% / 3 - 60px);
+}
+
+.col-5 {
+    width: calc(100% * 5 / 12 - 60px);
+}
+
+.col-6 {
+    width: calc(100% / 2 - 60px);
+}
+
+.col-7 {
+    width: calc(100% * 7 / 12 - 60px);
+}
+
+.col-8 {
+    width: calc(100% * 8 / 12 - 60px);
+}
+
+.col-9 {
+    width: calc(100% * 9 / 12 - 60px);
+}
+
+.col-10 {
+    width: calc(100% * 10 / 12 - 60px);
+}
+
+.col-11 {
+    width: calc(100% * 11 / 12 - 60px);
+}
+
+.col-12 {
+    width: calc(100% - 60px);
+}
+
+
+/* Media for any screen */
+
+/* @media (max-width: 1400px){
+    .col-xxl-3 {
+        width: calc(100% / 4 - 60px);
+    }
+}
+
+@media (max-width: 1200px){
+    .col-xl-3 {
+        width: calc(100% / 4 - 60px);
+    }
+} */
+
+@media (max-width: 992px){
+    .col-lg-12 {
+        width: calc(100% - 60px);
+    }
+    .display-none-lg {
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .sm-col-md-12{
+        width: calc(100% - 30px);
+    }
+}
+
+
