@@ -1,0 +1,43 @@
+@import "colors";
+
+
+.navtop {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    z-index: 999;
+}
+
+.navtop-item {
+    ul {
+        list-style-type: none;
+        li {
+            float: left;
+        }
+    }
+}
+
+.navtop-link {
+    text-decoration: none;
+    color: $color-navbar-link;
+    padding: 12px 24px;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    display: block;
+
+    &::after {
+        content: "\276F";
+        display: inline-block;
+        margin-left: 5px;
+        transform: rotate(90deg);
+    }
+    &:hover {
+        color: $color-light;
+    }
+}

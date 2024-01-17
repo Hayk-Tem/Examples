@@ -1,0 +1,116 @@
+@import "colors", "animations";
+
+.btn-container {
+    font-size: 0;
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+    border: none;
+    color: $color-light;
+    border-radius: 1000px;
+    padding: 16px 32px;
+    margin: 0 8px;
+}
+
+.btn-primary {
+    background: linear-gradient($color-linear-gradient-primary);
+    &:hover {
+        cursor: pointer;
+        animation: btn-primary-hover .2s linear forwards;
+    }
+}
+
+.btn-secondary {
+    background-color: $color-dark;
+    border: 1px solid $color-light;
+    &:hover {
+        cursor: pointer;
+        background-color: #A962FF;
+        border-color: #A962FF;
+    }
+}
+
+
+.btn-tertinary {
+    background-color: #111111;
+    padding: 10px 14px;
+    text-transform: none;
+    border-radius: 15px;
+    &:hover {
+        cursor: pointer;
+        background-color: #A962FF;
+    }
+}
+
+.btn-tertinary-border {
+    border: 1px solid #A962FF;
+}
+
+.btn-quaternary {
+    color: $color-dark;
+    padding: 10px 20px;
+    background-color: #14F195;
+    border: 1px solid #14F195;
+    &:hover {
+        cursor: pointer;
+        background-color: $color-dark;
+        border: 1px solid $color-light;
+        color: $color-light;
+    }
+
+}
+
+
+
+.btn-with-bars {
+    background-color: $color-dark;
+    border: 1px solid $color-light;
+    padding: 10px 20px;
+    &:hover {
+        cursor: pointer;
+        background-color: #14F195;
+        border-color: #14F195;
+        color: $color-dark;
+    }
+    &::after {
+        content: url("../images/btn-bar-icon.svg");
+        display: inline-block;
+        height: 20px;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+}
+
+
+.btn-youtube {
+    padding: 12px 45px !important;
+    line-height: 20px !important;
+    &::after {
+        content: url("../images/youtube-icon-2.svg") !important;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.btn-podcast {
+    padding: 12px 45px !important;
+    line-height: 20px !important;
+    &::after {
+        content: url("../images/podcast-icon.svg") !important;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+
+
+

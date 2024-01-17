@@ -1,0 +1,40 @@
+@import "colors", "functions";
+
+footer {
+    h5 {
+        @include font(15px, 400, 19px);
+        text-transform: uppercase;
+        color: $color-light;
+    }
+    & .col:nth-child(1) > h5 {
+        @include font(16px, 400, 27px);
+        color: $color-light;
+        margin: 20px 0;
+    }
+    .lang-item {
+        h5 {
+            color: #848895;
+            margin-left: 5px;
+        }
+    }
+}
+
+footer .list-links a {
+    display: block;
+    text-decoration: none;
+    @include font(15px, 400, 27px);
+    color: #848895;
+    margin: 11px 0;
+    &:hover {
+        color: #A962FF;
+    }
+}
+
+
+footer .contact-links {
+    margin: 20px 0;
+    & + p {
+        @include font(16px, 400, 27px);
+        color: #848895;
+    }
+}

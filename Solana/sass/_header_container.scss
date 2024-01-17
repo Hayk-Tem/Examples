@@ -1,0 +1,22 @@
+@import "colors", "functions", "animations";
+
+.header-container {
+    max-width: 1200px;
+    margin: 81px auto;
+    padding-top: 150px;
+    h1 {
+        color: $color-light;
+        @include font(70px, 400, 76px);
+        letter-spacing: 0.68px;
+        text-align: center;
+        animation: home-h1-anim 1s ease forwards;
+    }
+    p {
+        color: $color-light;
+        max-width: 580px;
+        margin: 50px auto;
+        @include font(21px, 400, 27px);
+        text-align: justify;
+        animation: home-p-anim 1s ease forwards;
+    }
+}

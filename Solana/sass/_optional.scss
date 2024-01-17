@@ -1,0 +1,153 @@
+.text-align-center {
+    text-align: center;
+}
+
+.border-style-color-1 {
+    border-color: #9945FF !important;
+}
+
+.border-style-color-2 {
+    border-color: #FFD512 !important;
+}
+
+.border-style-color-3 {
+    border-color: #19FB9B !important;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.margin-null {
+    margin: 0 !important;
+}
+
+.margin-top-navh {
+    margin-top: 81px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.color-primary {
+    color: #19FB9B !important;
+}
+.color-secondary {
+    color: #FFEB3B !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.blue-dot::before {
+    content: "\2801";
+    color: #1FCFF1;
+}
+
+.text-gradient-primary {
+    font-size: 101px;
+    line-height: 132px;
+    font-weight: 400;
+    background: linear-gradient(261.81deg, #19FB9B -8.01%, #8C01FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-secondary {
+    font-size: 106px;
+    line-height: 132px;
+    font-weight: 400;
+    background: linear-gradient(260.33deg, #0047FF -13.37%, #00BCD4 109.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient-tertinary {
+    font-size: 110px;
+    line-height: 132px;
+    font-weight: 400;
+    background: linear-gradient(265.11deg, #00FFBD -5.84%, #025B8C 111.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.container-bg-image-primary {
+    background-image: url("../images/bg-img-center.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-bg-image-secondary {
+    background-image: url("../images/bg-img-center-2.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.padding-50 {
+    padding: 50px;
+}
+
+.margin-tb-80 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.padding-tb-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.line {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 30px 0;
+}
+
+.m-bottom-null {
+    margin-bottom: 0 !important;
+}
+
+.m-top-70 {
+    margin-top: 70px !important;
+}
+
+.bg-color-primary {
+    background-color: #1A1A1A;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}

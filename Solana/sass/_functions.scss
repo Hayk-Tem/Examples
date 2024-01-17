@@ -1,0 +1,10 @@
+@mixin addLeftBorder($border-left-width: 1px, $border-left-line-style: solid, $border-left-color: white){
+    border-left: $border-left-width $border-left-line-style $border-left-color;
+}
+
+@mixin font($size, $weight, $l-height, $style: normal) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $l-height;
+    font-style: $style;
+}
