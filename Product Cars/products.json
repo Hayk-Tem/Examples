@@ -1,0 +1,340 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "brand": "Kia",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/kia_7.png",
+            "price": 31400
+        },
+        {
+            "id": 2,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_9.png",
+            "price": 25200
+        },
+        {
+            "id": 3,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_6.png",
+            "price": 37100
+        },
+        {
+            "id": 4,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_8.png",
+            "price": 35100
+        },
+        {
+            "id": 5,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_4.png",
+            "price": 43500
+        },
+        {
+            "id": 6,
+            "brand": "Toyota",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/toyota_2.png",
+            "price": 38000
+        },
+        {
+            "id": 7,
+            "brand": "Kia",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/kia_1.png",
+            "price": 36900
+        },
+        {
+            "id": 8,
+            "brand": "Toyota",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/toyota_1.png",
+            "price": 17300
+        },
+        {
+            "id": 9,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_2.png",
+            "price": 46800
+        },
+        {
+            "id": 10,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_5.png",
+            "price": 47700
+        },
+        {
+            "id": 11,
+            "brand": "BMW",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/bmw_9.png",
+            "price": 44900
+        },
+        {
+            "id": 12,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_13.png",
+            "price": 39800
+        },
+        {
+            "id": 13,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_7.png",
+            "price": 39500
+        },
+        {
+            "id": 14,
+            "brand": "BMW",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/bmw_7.png",
+            "price": 44100
+        },
+        {
+            "id": 15,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_7.png",
+            "price": 21200
+        },
+        {
+            "id": 16,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_1.png",
+            "price": 44000
+        },
+        {
+            "id": 17,
+            "brand": "Toyota",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/toyota_4.png",
+            "price": 48300
+        },
+        {
+            "id": 18,
+            "brand": "Toyota",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/toyota_3.png",
+            "price": 34400
+        },
+        {
+            "id": 19,
+            "brand": "Kia",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/kia_9.png",
+            "price": 18200
+        },
+        {
+            "id": 20,
+            "brand": "Kia",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/kia_2.png",
+            "price": 35400
+        },
+        {
+            "id": 21,
+            "brand": "BMW",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/bmw_3.png",
+            "price": 34600
+        },
+        {
+            "id": 22,
+            "brand": "Kia",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/kia_8.png",
+            "price": 40000
+        },
+        {
+            "id": 23,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_12.png",
+            "price": 32300
+        },
+        {
+            "id": 24,
+            "brand": "BMW",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/bmw_4.png",
+            "price": 17200
+        },
+        {
+            "id": 25,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_3.png",
+            "price": 26100
+        },
+        {
+            "id": 26,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_9.png",
+            "price": 43800
+        },
+        {
+            "id": 27,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_2.png",
+            "price": 24300
+        },
+        {
+            "id": 28,
+            "brand": "BMW",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/bmw_6.png",
+            "price": 20800
+        },
+        {
+            "id": 29,
+            "brand": "BMW",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/bmw_5.png",
+            "price": 42300
+        },
+        {
+            "id": 30,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_6.png",
+            "price": 19300
+        },
+        {
+            "id": 31,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_3.png",
+            "price": 18400
+        },
+        {
+            "id": 32,
+            "brand": "BMW",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/bmw_2.png",
+            "price": 33300
+        },
+        {
+            "id": 33,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_11.png",
+            "price": 16700
+        },
+        {
+            "id": 34,
+            "brand": "Kia",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/kia_5.png",
+            "price": 38300
+        },
+        {
+            "id": 35,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_5.png",
+            "price": 31800
+        },
+        {
+            "id": 36,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_11.png",
+            "price": 16400
+        },
+        {
+            "id": 37,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_1.png",
+            "price": 48300
+        },
+        {
+            "id": 38,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_8.png",
+            "price": 23100
+        },
+        {
+            "id": 39,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_4.png",
+            "price": 17900
+        },
+        {
+            "id": 40,
+            "brand": "BMW",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/bmw_1.png",
+            "price": 22500
+        },
+        {
+            "id": 41,
+            "brand": "Mersedes Benz",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/mersedes_10.png",
+            "price": 26500
+        },
+        {
+            "id": 42,
+            "brand": "BMW",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/bmw_8.png",
+            "price": 39900
+        },
+        {
+            "id": 43,
+            "brand": "Kia",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/kia_3.png",
+            "price": 40800
+        },
+        {
+            "id": 44,
+            "brand": "Kia",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/kia_4.png",
+            "price": 43100
+        },
+        {
+            "id": 45,
+            "brand": "Kia",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/kia_6.png",
+            "price": 35800
+        },
+        {
+            "id": 46,
+            "brand": "Toyota",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/toyota_6.png",
+            "price": 32500
+        },
+        {
+            "id": 47,
+            "brand": "Audi",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/audi_10.png",
+            "price": 16600
+        },
+        {
+            "id": 48,
+            "brand": "Toyota",
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa magni itaque ratione non quisquam est vel esse.",
+            "url": "./images/toyota_5.png",
+            "price": 19700
+        }
+    ]
+}
