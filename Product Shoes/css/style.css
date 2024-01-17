@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .root {
+    background-color: antiquewhite;
+} */
+
+.card-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+.store-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.card-item {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 15px;
+    width: calc(100% / 5 - 30px);
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card-item:hover {
+    cursor: pointer;
+    animation-name: cardMove;
+    animation-timing-function: ease;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+.card-product-name {
+    margin: 0 auto;
+}
+
+.card-desc {
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.img-box {
+    padding: 10px;
+    position: relative;
+}
+
+.img-item {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-select-status::after {
+    content: "\2B50";
+    font-size: 20px;
+    font-style: normal;
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.card-price-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card-price::after,
+#totalPrice::after {
+    content: " \0024";
+    color: orange;
+}
+
+.display-none {
+    display: none;
+}
+
+#totalPrice {
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    font-size: 32px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    background-color: rgba(33, 159, 255, 0.932);
+    border-radius: 1000px;
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(24, 121, 247, 0.932);
+}
+
+@keyframes cardMove {
+    0% {
+        /* transform: scale(0) rotateZ(0deg); */
+    }
+    100% {
+        transform: scale(1.05)/* rotateZ(2deg);*/
+    }
+}
